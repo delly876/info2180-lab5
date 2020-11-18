@@ -6,6 +6,10 @@ html{
     -o-background-size: cover;
     background-size: cover;
     background-color: white;
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
 }
 body{
     margin: 100px 500px 100px 500px;
@@ -59,11 +63,12 @@ label{
     background-color: #A4DE02;
     border-radius: 5px; 
     padding: 10px 15px 10px 15px;
-    border: none
+    border: none;
 
 }
 
 #result{
+    margin-top: 20px;
     background-color: white;
 }
 
