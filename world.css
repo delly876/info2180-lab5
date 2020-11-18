@@ -1,1 +1,75 @@
 /* Add your own styles */
+html{
+    background: url("worldmap.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: white;
+}
+body{
+    margin: 100px 500px 100px 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #020b44;
+    margin: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:white;
+    color: black;
+
+}
+
+label{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-self: center;
+}
+
+#country{
+    margin: 20px;
+    width: 300px;
+    border-radius: 5px; 
+    padding: 10px 15px 10px 15px; 
+    border-color: #A4DE02;
+    background-color: #ffffff;
+    color: #020b44;
+
+}
+
+#lookup{
+    justify-self: center;
+    font-size: 15px;
+    background-color: #A4DE02;
+    border-radius: 5px; 
+    padding: 10px 15px 10px 15px;
+    border: none
+
+}
+
+#result{
+    background-color: white;
+}
+
+footer{
+    color: #020b44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
